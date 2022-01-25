@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+footer {
+    padding-top: 15px;
+}
+
+.caption span a {
+    color: rgb(14 165 233);
+    font-weight: 500;
+}
+
+.caption span a:hover {
+    color: rgb(7 89 133);   
+}
