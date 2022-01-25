@@ -73,7 +73,7 @@ mb-4
 bg-gray-100
 shadow-lg
 navbar navbar-expand-lg navbar-light
-"><span className="text-2xl px-4 font-semibold text-sky-700">Lookbook</span>
+"><span className="text-2xl px-4 font-semibold text-sky-700"><img src="../public/lookbook.png" />Lookbook</span>
             <div class="container-fluid flex flex-wrap items-center justify-between px-6 text-gray-500
 hover:text-gray-800
 focus:text-gray-800">
