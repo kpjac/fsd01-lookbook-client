@@ -75,7 +75,7 @@ shadow-lg
 navbar navbar-expand-lg navbar-light
 ">
             <div className="container-fluid flex">
-              <img src="/public/lookbook.png" className="h-12 w-auto" /><
+              <img src="https://fsd01-instagram-clone.s3.eu-west-3.amazonaws.com/lookbook.png" className="h-12 w-auto" /><
                 span className="text-2xl px-4 font-semibold text-sky-700">Lookbook</span>
             </div>
             <div className="container-fluid flex flex-wrap items-center justify-between px-6 text-gray-500
