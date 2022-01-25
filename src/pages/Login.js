@@ -4,6 +4,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../helpers/AuthContext";
 
 function Login() {
+  document.title = "Login | Lookbook";
+
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const { setAuthState } = useContext(AuthContext);
@@ -30,7 +32,7 @@ function Login() {
   return (
     <>
     <h1 className="text-5xl text-center font-medium leading-tight mt-0 mb-2 text-black-600">
-        Login page
+        Login
       </h1>
     <div class="flex justify-center">
       <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">

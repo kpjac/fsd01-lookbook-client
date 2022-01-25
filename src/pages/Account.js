@@ -13,7 +13,7 @@ function Account() {
 
 
   useEffect(() => {
-    document.title = "Account - Lookbook";
+    document.title = "Account | Lookbook";
     axios
       .get(`${process.env.REACT_APP_API_URL}/auth/read/${authState.id}`, {
         headers: {

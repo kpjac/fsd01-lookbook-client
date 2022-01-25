@@ -29,6 +29,8 @@ function Profile() {
       });
     });
 
+    document.title = `Profile - ${username} | Lookbook`;
+
     axios
       .get(`${process.env.REACT_APP_API_URL}/posts/${id}`, {
         headers: {
@@ -43,8 +45,6 @@ function Profile() {
           setListOfPosts(response.data);
         }
       });
-
-    document.title = "Profile - Instagram";
   }, [id]);
 
   return (

@@ -10,6 +10,7 @@ import { Spinner } from '@chakra-ui/spinner';
 function Tag() {
 
     let { tag } = useParams();
+    document.title = `#${tag} | Lookbook`;
 
 
     const [posts, setPosts] = useState([]);

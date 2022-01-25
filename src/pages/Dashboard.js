@@ -8,6 +8,7 @@ import { Spinner } from '@chakra-ui/spinner';
 
 
 function Dashboard() {
+  document.title = `Lookbook`;
 
   const [usersForFollow, setUsersForFollow] = useState([]);
   const [posts, setPosts] = useState([]);
