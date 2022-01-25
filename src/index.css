@@ -14,3 +14,7 @@ footer {
 .caption span a:hover {
     color: rgb(7 89 133);   
 }
+
+span.logoName {
+    padding-top: 0.5rem !important;
+}
